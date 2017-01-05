@@ -1,0 +1,29 @@
+{
+  "name": "UnitTestJavascript",
+  "version": "1.0.0",
+  "description": "Unit testing in Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests --recursive --watch --compilers js:babel-core/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuyul/UnitTestJavascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuyul/UnitTestJavascript/issues"
+  },
+  "homepage": "https://github.com/yuyul/UnitTestJavascript#readme",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "sinon": "^1.17.7"
+  }
+}
